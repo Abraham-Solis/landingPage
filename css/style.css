@@ -255,6 +255,16 @@ header .nav-bar{
   -ms-transform: translateX(10px);
   -o-transform: translateX(10px);
 }
+
+.dark-layer::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top:0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2)
+}
 /*======= Media icons =======*/
 
 /*======= About section =======*/
