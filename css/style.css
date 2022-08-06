@@ -58,7 +58,7 @@ header .nav-bar{
 }
 
 .nav-bar .logo{
-  color: var(--dark-color);
+  color: var(--white-color);
   font-size: 1.8rem;
   font-weight: 600;
   letter-spacing: 2px;
@@ -68,7 +68,7 @@ header .nav-bar{
 }
 
 .navigation .nav-items a{
-  color: var(--dark-color);
+  color: var(--white-color);
   font-size: 1em;
   text-decoration: none;
   text-shadow: var(--text-shadow);
@@ -82,8 +82,17 @@ header .nav-bar{
   margin-right: 45px;
 }
 /*======= Home =======*/
+.home{
+  min-height: 100vh;
+}
 
 /*======= Background slider =======*/
+.bg-slider{
+  z-index: 777;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
 
 /*======= Media icons =======*/
 
