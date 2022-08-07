@@ -428,6 +428,11 @@ header .nav-bar{
     -moz-transform: translateY(-67%);
     -ms-transform: translateY(-67%);
     -o-transform: translateY(-67%);
+    transition: .03s ease;
+    -webkit-transition: .03s ease;
+    -moz-transition: .03s ease;
+    -ms-transition: .03s ease;
+    -o-transition: .03s ease;
 }
 
 .swiper-slide .text-content{
